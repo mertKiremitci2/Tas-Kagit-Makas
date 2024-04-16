@@ -1,0 +1,265 @@
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #7A7A7A;
+}
+/* Oyun arka planı */
+.background{
+    width: 123rem;
+    height: 70rem;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-top: 1rem;
+    background-color: #CFE0EF;
+    border-radius: 5px;
+}
+/* Oyun ekranı navigassyon bar */
+.menubar{
+    width: 100%;
+    height: 10rem;
+    background-color: #5EA8DE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* Oyuncu logo ve yazı başlangıç */
+.player{
+    background-image: url(images/oyuncu.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 50px;
+}
+.playerWriting{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* Oyuncu logo vey yazı bitiş */
+/* Skor tablosu başlangıç */
+.skor1{
+    font-size: 80px;
+    margin-left: 43%;
+}
+.skorCizgi{
+    font-size: 80px;
+    margin-left: 48%;
+    margin-top: -10rem;
+}
+.skor2{
+    font-size: 80px;
+    margin-left: 52%;
+    margin-top: -8.4rem;
+}
+/* Skor tablosu bitiş */
+/* Bilgisayar logo ve yazi başlangıç */
+.robot{
+    background-image: url(images/robot\ icon.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    margin-left: 114rem;
+    margin-top: -7.8rem;
+    border-radius: 50px;
+}
+.robotWriting{
+    font-size: 30px;
+    position: absolute;
+    margin-left: -20rem;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* Bilgisayar logo ve yazı bitiş */
+/* Menü tuşu */
+.menuclick{
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 43rem;
+    border-radius: 10px;
+    margin-top: -3rem;
+    background-color: #355B8D;
+    color: white;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+/* Menubar tekrar oyna */
+.restartplay{
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 70rem;
+    border-radius: 10px;
+    margin-top: -3rem;
+    background-color: #355B8D;
+    color: white;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+/* Seçim yapılacak kısım taş,kağıt,makas başlangıç */
+.stone{
+    background-image: url(images/taş.png);
+    background-position: center;
+    background-size: cover;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 35%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.paper{
+    background-image: url(images/kagıt.png);
+    background-position: center;
+    background-size: cover;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 8rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.scissors{
+    background-image: url(images/makas.png);
+    background-position: center;
+    background-size: cover;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 8rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+/* Seçim yapılacak kısım taş,kağıt,makas bitiş */
+/* İkici arka plan */
+.background2{
+    width: 100%;
+    height: 50rem;
+}
+/* Oyun ekranına çıkacak olan işaretler sol başlangıç */
+.stone1{
+    background-image: url(images/taş1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 9rem;
+}
+.paper1{
+    background-image: url(images/kagıt1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 9rem;
+}
+.scissors1{
+    background-image: url(images/makas1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 9rem;
+}
+/* Oyun ekranına çıkacak olan işaretler sol bitiş */
+/* Oyun ekranına çıkacak olan işaretler sağ başlangıç */
+.stone2{
+    background-image: url(images/taş1.png);
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 80rem;
+    position: absolute;
+}
+.paper2{
+    background-image: url(images/kagıt1.png);
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 80rem;
+    position: absolute;
+}
+.scissors2{
+    background-image: url(images/makas1.png);
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    margin-top: 12rem;
+    margin-left: 80rem;
+    position: absolute;
+}
+/* Oyun ekranına çıkacak olan işaretler sağ bitiş */
+/* Oyun bitiş ekranı başlangıç */
+.finish{
+    width: 40%;
+    height: 40rem;
+    background-color: #355B8D;
+    margin-left: 30%;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.finishyazi{
+    font-size:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: -35rem;
+}
+.restart{
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+/* Oyun bitiş ekranı bitiş */
